@@ -4,4 +4,4 @@ arch:
 - amd64
 - ppc64le
 install:
-mvn clean verify package
+  - mvn clean verify package
