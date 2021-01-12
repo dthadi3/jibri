@@ -1,7 +1,5 @@
-language: ruby
-
 arch:
-- amd64
-- ppc64le
+  - amd64
+  - ppc64le
 install:
   - mvn clean verify package
